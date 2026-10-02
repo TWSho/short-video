@@ -269,7 +269,7 @@ videos.forEach(v => {
   card.className = 'card';
   card.innerHTML = `
     <div class="thumb">
-      <img src="https://img.youtube.com/vi/${v.id}/oar2.jpg"
+      <img src="https://img.youtube.com/vi/${v.id}/oar2.jpg?t=${Date.now()}"
            alt="${v.title}"
            loading="lazy">
       <div class="play-icon">
